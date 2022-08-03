@@ -6,9 +6,11 @@ public class android extends mobile {
 		super(manufacturer, operatingsystem, model);
 		// TODO Auto-generated constructor stub
 	}
+	
+	}
 
 	
 	
-	}
+	
 
 

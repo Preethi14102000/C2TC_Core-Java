@@ -3,7 +3,7 @@ package com.cg.inheritance;
 public class mobile {
 	private String manufacturer;
 	private String operatingsystem;
-	private String model;
+	protected String model;
 	//call to the constructor
 	public mobile(String manufacturer, String operatingsystem, String model) {
 		super();
@@ -11,7 +11,7 @@ public class mobile {
 		this.operatingsystem = operatingsystem;
 		this.model = model;
 	}
-	public String getmodel() {
+	protected String getmodel() {
 		return model;
 	}
 	@Override
